@@ -99,12 +99,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 
 # Custom (forked) repo URL and BRANCH for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                     or "https://github.com/FrosT2k5/ProjectFizilion.git")
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "demon"
-###
-FUPSTREAM_REPO_URL = (os.environ.get("FPSTREAM_REPO_URL")
-                     or "https://github.com/Elytra8/ProjectFizilion.git")
-FUPSTREAM_REPO_BRANCH = os.environ.get("FPSTREAM_REPO_BRANCH") or "dragon"
+                     or "https://github.com/ColdKube/ColdKube")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "production"
+
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get(
     "CONSOLE_LOGGER_VERBOSE") or "False")
@@ -141,7 +138,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT") or "False")
 ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
 
 # Default .alive logo
-ALIVE_LOGO = str(os.environ.get("ALIVE_LOGO") or "https://github.com/ElytrA8/ProjectFizilion/raw/dragon/resources/glitch.gif")
+ALIVE_LOGO = str(os.environ.get("ALIVE_LOGO") or "https://github.com/ColdKube/ColdKube/raw/production/resources/logo.png")
 
 # .alive and .help timeout
 TIMEOUT = sb(os.environ.get("TIMEOUT") or "True")
@@ -157,7 +154,7 @@ USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "production 3.0"
 USER_TERM_ALIAS = os.environ.get("USER_TERM_ALIAS") or "dem0n"
 
 # Updater alias
-UPDATER_ALIAS = os.environ.get("UPDATER_ALIAS") or "Fizilion"
+UPDATER_ALIAS = os.environ.get("UPDATER_ALIAS") or "ColdKube"
 
 # Zipfile module
 ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY") or "./zips"
@@ -298,14 +295,14 @@ uptime = time.strftime('%X')
 ##
 output = (
     "` =============================== `\n"
-    f"`Fizilion is Up and Running.... `\n"
+    f"`ColdKube is Up and Running.... `\n"
     f"`=============================== `\n"
     f"•`Telethon       : v{version.__version__} `\n"
     f"•`Python         : v{python_version()} `\n"
     f"•`User           : {DEFAULTUSER} `\n"
     f"•`Running on     : {repo.active_branch.name} `\n"
     f"•`Loaded modules : 105 `\n"
-    f"•`Fizilion       : {USERBOT_VERSION} `\n"
+    f"•`ColdKube       : {USERBOT_VERSION} `\n"
     f"•`Bot started at : {uptime} `\n" 
 )
 

@@ -1,7 +1,7 @@
 FROM ghcr.io/elytra8/fedora-docker:main
 
-RUN mkdir /Fizilion && chmod 777 /Fizilion && git clone https://github.com/FrosT2k5/ProjectFizilion -b demon /Fizilion
-ENV PATH="/Fizilion/bin:$PATH"
-WORKDIR /Fizilion
+RUN mkdir /ColdKube && chmod 777 /ColdKube && git clone https://github.com/ColdKube/ColdKube -b production /ColdKube
+ENV PATH="/ColdKube/bin:$PATH"
+WORKDIR /ColdKube
 
 CMD ["python3","-m","userbot"]

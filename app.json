@@ -1,7 +1,7 @@
 {
-  "name": "Project Fizilion",
+  "name": "ColdKube Userbot",
   "description": "A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
-  "logo": "https://github.com/PrajjUS/ProjectFizilion/raw/demon/resources/Fizilion.png",
+  "logo": "https://github.com/ColdKube/ColdKube/raw/production/resources/logo.png",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/PrajjuS/ProjectFizilion",
-  "website": "https://t.me/PrajjuS",
-  "success_url": "https://t.me/ProjectFizilion",
+  "repository": "https://github.com/ColdKube/ColdKube",
+  "website": "https://t.me/ColdKube",
+  "success_url": "https://t.me/ColdKube",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -170,7 +170,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[PM = Report Spam] I ❤ ️Fizilion",
+      "value": "[PM = Report Spam]",
       "required": false
     },
     "ALIVE_NAME": {
