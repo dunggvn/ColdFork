@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://github.com/ColdKube/ColdKube"><img src="htts://github. com/ColdKube/production/resources/logo.png" alt="© by ElytrA8" width=600px></a>
+   <a href="https://github.com/ColdKube/ColdKube"><img src="htts://github.com/ColdKube/ColdKube/production/resources/logo.png" alt="© by ElytrA8" width=600px></a>
    <br>
    <br>
 </p>
