@@ -1,7 +1,7 @@
 FROM ghcr.io/elytra8/fedora-docker:main
 
-RUN mkdir /ColdKube && chmod 777 /ColdKube && git clone https://github.com/ColdKube/ColdKube -b production /ColdKube
-ENV PATH="/ColdKube/bin:$PATH"
-WORKDIR /ColdKube
+RUN mkdir /ColdFork && chmod 777 /ColdFork && git clone https://github.com/dunggvn/ColdFork -b production /ColdFork
+ENV PATH="/ColdFork/bin:$PATH"
+WORKDIR /ColdFork
 
 CMD ["python3","-m","userbot"]
